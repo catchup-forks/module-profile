@@ -1,5 +1,5 @@
 {
-    "name": "cysha/pxcms-profile",
+    "name": "cysha/module-profile",
     "type": "pxcms-module",
     "description": "Profile Module for PhoenixCMS",
     "license": "MIT",
