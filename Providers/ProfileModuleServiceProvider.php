@@ -1,10 +1,11 @@
-<?php namespace Cms\Modules\Profile\Providers;
+<?php
+
+namespace Cms\Modules\Profile\Providers;
 
 use Cms\Modules\Core\Providers\BaseModuleProvider;
 
 class ProfileModuleServiceProvider extends BaseModuleProvider
 {
-
     /**
      * Register the defined middleware.
      *
@@ -26,7 +27,7 @@ class ProfileModuleServiceProvider extends BaseModuleProvider
     ];
 
     /**
-     * Register view composers
+     * Register view composers.
      *
      * @var array
      */
@@ -36,7 +37,7 @@ class ProfileModuleServiceProvider extends BaseModuleProvider
     ];
 
     /**
-     * Register repository bindings to the IoC
+     * Register repository bindings to the IoC.
      *
      * @var array
      */
@@ -45,12 +46,10 @@ class ProfileModuleServiceProvider extends BaseModuleProvider
     ];
 
     /**
-     * Register Auth related stuffs
+     * Register Auth related stuffs.
      */
     public function register()
     {
         parent::register();
-
     }
-
 }
