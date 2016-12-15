@@ -3,7 +3,6 @@
 namespace Cms\Modules\Profile\Providers;
 
 use Cms\Modules\Core\Providers\CmsRoutingProvider;
-use Illuminate\Routing\Router;
 
 class ProfileRoutingProvider extends CmsRoutingProvider
 {
@@ -33,8 +32,8 @@ class ProfileRoutingProvider extends CmsRoutingProvider
         return __DIR__.'/../Http/routes-api.php';
     }
 
-    public function boot(Router $router)
+    public function boot()
     {
-        parent::boot($router);
+        parent::boot();
     }
 }
