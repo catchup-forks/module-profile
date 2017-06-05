@@ -1,7 +1,7 @@
 {
-    "name": "cysha/module-profile",
+    "name": "cleansoftnl/module-profile",
     "type": "pxcms-module",
-    "description": "Profile Module for PhoenixCMS",
+    "description": "Profile Module for CleanSoft",
     "license": "MIT",
     "authors": [
         { "name": "xLink", "email": "xLink@cybershade.org" }

@@ -1,20 +1,20 @@
 {
     "name": "Profile",
     "alias": "profile",
-    "description": "Profile Module for Phoenix CMS",
+    "description": "Profile Module for CleanSoft",
     "authors": [
         { "name": "xLink (Dan Aldridge)", "email": "xLink@cybershade.org" }
     ],
     "keywords": [
         "first-party"
     ],
-    "version": "v1.0.0",
+    "version": "v5.4.0",
     "active": 1,
     "order": 10,
     "providers": [
-        "Cms\\Modules\\Profile\\Providers\\ProfileModuleServiceProvider",
-        "Cms\\Modules\\Profile\\Providers\\ProfileEventsProvider",
-        "Cms\\Modules\\Profile\\Providers\\ProfileRoutingProvider"
+        "App\\Modules\\Profile\\Providers\\ProfileModuleServiceProvider",
+        "App\\Modules\\Profile\\Providers\\ProfileEventsProvider",
+        "App\\Modules\\Profile\\Providers\\ProfileRoutingProvider"
     ],
     "aliases": {
     },
